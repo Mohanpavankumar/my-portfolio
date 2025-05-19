@@ -1,0 +1,57 @@
+#works {
+    padding: 2rem;
+}
+
+.works-heading{
+    font-size: xx-large;
+    text-align: center;
+    color: yellow;
+    padding: 2rem;
+}
+  
+.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+  
+.work-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 35rem;
+    text-align:left;
+    box-shadow: 0 0 15px rgba(203, 182, 182, 0.1);
+}
+
+.work-image {
+    width: 20rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.work-title{
+    margin-bottom: 0.5rem;
+}
+
+.work-des{
+    font-weight: 300;
+}
+
+.demo-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffce00; /* yellowish to match heading */
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .demo-button:hover {
+    background-color: #e0b800;
+  }
+  
