@@ -38,14 +38,14 @@ export const worksData = [
     },
     {
         image: portfolio7,
-        title: "Essembly Endgame",
-        des: "A fun word-guessing game where you must guess the programming word before the world falls back into Assembly, Built using React.",
-        demolink: "https://essembly-endgame.netlify.app/"
-    },
-    {
-        image: portfolio8,
         title: "Tenzies",
         des: "A fun and interactive dice game built using React! The goal is to roll until all dice show the same value. You can hold dice between rolls to lock their value.",
         demolink: "https://tenzies-capstone.netlify.app/"
+    },
+    {
+        image: portfolio8,
+        title: "Essembly Endgame",
+        des: "A fun word-guessing game where you must guess the programming word before the world falls back into Assembly, Built using React.",
+        demolink: "https://essembly-endgame.netlify.app/"
     },
 ]
