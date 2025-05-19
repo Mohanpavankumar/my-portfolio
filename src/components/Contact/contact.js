@@ -5,7 +5,7 @@ import Tourslog from '../../assets/tourslogLogo.png'
 import Maltech from '../../assets/maltechLogo.png'
 import FacebookIcon from '../../assets/facebook-icon.png'
 import TwitterIcon from '../../assets/twitter.png'
-import YoutubeIcon from '../../assets/youtube.png'
+import GitHUbIcon from '../../assets/github-icon.png'
 import InstagramIcon from '../../assets/instagram.png'
 import emailjs from '@emailjs/browser';
 
@@ -61,8 +61,8 @@ const Contact = () => {
               <a href='https://x.com/mohan97295?s=11' target='_blank' rel='noopener noreferrer'>
                 <img src={TwitterIcon} alt='Twitter' className='link' />
               </a>
-              <a href='https://youtube.com/yourChannel' target='_blank' rel='noopener noreferrer'>
-                <img src={YoutubeIcon} alt='YouTube' className='link' />
+              <a href='https://github.com/Mohanpavankumar' target='_blank' rel='noopener noreferrer'>
+                <img src={GitHUbIcon} alt='YouTube' className='link' />
               </a>
               <a href='https://www.instagram.com/__mohanpavan__?igsh=bGpndHViNWMxMTlq&utm_source=qr' target='_blank' rel='noopener noreferrer'>
                 <img src={InstagramIcon} alt='Instagram' className='link' />

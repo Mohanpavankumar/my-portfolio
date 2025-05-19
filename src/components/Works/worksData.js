@@ -22,7 +22,7 @@ export const worksData = [
         image: portfolio4,
         title: "Mern Authentication System",
         des: "This project is a MERN stack application that provides user authentication features, including login, signup, and forgot password.",
-        demolink: "https://github.com/Mohanpavankumar/Registration_Login_Website/"
+        demolink: "https://mern-authenticationsystem.netlify.app/"
     },
     {
         image: portfolio5,
@@ -34,18 +34,18 @@ export const worksData = [
         image: portfolio6,
         title: "Quiz App",
         des: "QuizApp is a simple and interactive web-based quiz application built with HTML, CSS, and JavaScript.",
-        demolink: "https://github.com/Mohanpavankumar/QuizApp/"
+        demolink: "https://brain-buster-quizapp.netlify.app/"
     },
     {
         image: portfolio7,
         title: "Essembly Endgame",
         des: "A fun word-guessing game where you must guess the programming word before the world falls back into Assembly, Built using React.",
-        demolink: "https://github.com/Mohanpavankumar/essembly_endgame"
+        demolink: "https://essembly-endgame.netlify.app/"
     },
     {
         image: portfolio8,
         title: "Tenzies",
         des: "A fun and interactive dice game built using React! The goal is to roll until all dice show the same value. You can hold dice between rolls to lock their value.",
-        demolink: "https://github.com/Mohanpavankumar/TenziesCapstone"
+        demolink: "https://tenzies-capstone.netlify.app/"
     },
 ]
