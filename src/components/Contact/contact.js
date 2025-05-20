@@ -40,7 +40,7 @@ const Contact = () => {
             </p>
             <div className='clientImgs'>
                 <div className='clientImgWrapper'><img src={Microsoft} alt='Client' className='clientImg' /></div>
-                <div className='clientImgWrapper'><img src={Tourslog} alt='Client' className='clientImg' /></div>
+                <div className='clientImgWrapper'><img src={Tourslog} alt='Client' className='clientImg tourslog' /></div>
                 <div className='clientImgWrapper'><img src={Maltech} alt='Client' className='clientImg' /></div>
             </div>
         </div>
