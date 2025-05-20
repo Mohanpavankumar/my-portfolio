@@ -35,13 +35,13 @@
 }
 
 /* Clients */
-.clientImgs {
+/* .clientImgs {
     margin: 2rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-}
+} */
 
 /* .clientImg {
     width: 14rem;
@@ -50,23 +50,35 @@
     transition: transform 0.3s ease;
 } */
 
+.clientImgs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
 .clientImgWrapper {
-    width: 14rem;
-    height: 8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #fff; /* Optional */
-    padding: 0.5rem;
-    border: 1px solid #ccc;
+  width: 14rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a; /* dark to match your site */
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 .clientImg {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
+.clientImg.tourslog {
+  transform: scale(1.4); /* adjust as needed */
+}
 
 .clientImg:hover {
     transform: scale(1.05);
@@ -174,3 +186,12 @@
         height: 5rem;
     }
 }
+
+@media (min-width: 768px) {
+  .clientImgs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
