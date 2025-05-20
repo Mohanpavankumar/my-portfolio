@@ -8,7 +8,7 @@ import portfolio8 from '../../assets/portfolio-8.png'
 export const worksData = [
     {
         image: "",
-        title: "Website Development for Higner Education Institution",
+        title: "Website Development for Higher Education Institution",
         des: "The vision is to build college website by the students for the students.",
         demolink: "https://github.com/Mohanpavankumar/BecCollegeWebsite"
     },
