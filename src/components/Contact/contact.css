@@ -150,4 +150,9 @@
         height: 2rem;
         width: 2rem;
     }
+
+    .clientImg{
+        width: 10rem;
+        height: 5rem;
+    }
 }
