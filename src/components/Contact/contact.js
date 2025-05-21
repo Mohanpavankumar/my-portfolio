@@ -39,9 +39,9 @@ const Contact = () => {
                 Some of the notable companies I have worked with includes
             </p>
             <div className='clientImgs'>
-                <img src={Microsoft} alt='Client' className='clientImg'></img>
-                <img src={Tourslog} alt='Client' className='clientImg'></img>
-                <img src={Maltech} alt='Client' className='clientImg'></img>
+                <div className='clientImgWrapper'><img src={Microsoft} alt='Client' className='clientImg' /></div>
+                <div className='clientImgWrapper'><img src={Tourslog} alt='Client' className='clientImg tourslog' /></div>
+                <div className='clientImgWrapper'><img src={Maltech} alt='Client' className='clientImg' /></div>
             </div>
         </div>
         <div id='contact'>
