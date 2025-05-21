@@ -15,12 +15,10 @@ const Intro = () => {
                 Full Stack Developer
             </span>
             <p className='introPara'>I am a skilled Full Stack developer with experience in creating <br /> user friendly websites</p>
-            <Link>
-                <button className='btn'>
-                    <img src={hireMe} alt='' className='btnImg' />
-                    Hire Me
-                </button>
-            </Link>
+            <a href="/MohanaPavan_Resume.pdf" download className="btn">
+                <img src={hireMe} alt="Hire Me" className="btnImg" />
+                Hire Me
+            </a>
         </div>
         <img src={profile} alt='profile' className='profile'/>
     </section>
