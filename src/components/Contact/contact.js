@@ -50,9 +50,9 @@ const Contact = () => {
             Please fill out the form below to discuss  any work opportunities.
           </span>
           <form className='contactForm' ref={form} onSubmit={sendEmail}>
-            <input type='text' className='name' placeholder='Your Name' name='from_name' />
-            <input type='email' className='email' placeholder='Your Email' name='from_email' />
-            <textarea className='msg' name='message' rows='5' placeholder='Your Message'></textarea>
+            <input type='text' className='name' placeholder='Your Name' name='from_name' required/>
+            <input type='email' className='email' placeholder='Your Email' name='from_email' required/>
+            <textarea className='msg' name='message' rows='5' placeholder='Your Message' required></textarea>
             <button type='submit' className='submitBtn' value='Send'>Submit</button>
             <div className='links'>
               <a href='https://www.facebook.com/share/quhnhP1p6eahu4QU/?mibextid=LQQJ4d' target='_blank' rel='noopener noreferrer'>
