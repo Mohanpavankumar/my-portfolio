@@ -14,6 +14,7 @@
     z-index: -1;
     object-fit: cover;
     height: 88.5vh;
+    animation: slideInFromRight 1.5s ease-out forwards;
 }
 
 .introContent {
@@ -25,6 +26,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation: slideInFromLeft 1.5s ease-out forwards;
 }
 
 .hello {
@@ -83,3 +85,26 @@
         font-size: 4.5vw;
     }
 }
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
