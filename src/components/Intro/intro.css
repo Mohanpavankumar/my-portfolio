@@ -14,7 +14,7 @@
     z-index: -1;
     object-fit: cover;
     height: 88.5vh;
-    animation: slideInFromRight 1.5s ease-out forwards;
+    /* animation: slideInFromRight 1.5s ease-out forwards; */
 }
 
 .introContent {
@@ -107,4 +107,3 @@
       opacity: 1;
     }
   }
-  
