@@ -1,4 +1,10 @@
-/* Base Styles */
+:root {
+    --primary-color: #ffcc00;
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --hover-text: #facc1580;
+  }
+
 #clients {
     scroll-margin-top:5rem;
   }
@@ -19,7 +25,7 @@
 
 .contactPageTitle {
     font-size: 2.5rem;
-    color: #facc15; /* Yellow-400 */
+    color: var(--primary-color);
     margin-bottom: 1rem;
     font-weight: 600;
     letter-spacing: 1px;
@@ -28,7 +34,7 @@
 .clientDesc, .contactDesc {
     font-weight: 300;
     font-size: 1.1rem;
-    color: #ccc;
+    color: var(--text-color);
     max-width: 700px;
     margin: 0 auto 1.5rem;
     line-height: 1.6;
@@ -78,7 +84,6 @@
     background-color: #1f1f1f;
     padding: 2rem;
     border-radius: 1rem;
-    /* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4); */
 }
 
 .name, .email, .msg {
@@ -111,7 +116,7 @@
 
 .submitBtn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(250, 204, 21, 0.5);
+    box-shadow: 0 5px 20px var(--hover-text);
 }
 
 /* Social Media Links */

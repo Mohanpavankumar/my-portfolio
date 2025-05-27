@@ -1,13 +1,12 @@
 :root {
-    --primary-color: #ffcc00;
-    --bg-color: #121212;
-    --text-color: #ffffff;
-    --muted-text: #aaa;
-    --timeline-line: #444;
-  }
-
+  --primary-color: #ffcc00;
+  --bg-color-nav: #1e1e1e00;
+  --text-color: #ffffff;
+  --muted-text: #aaa;
+  --timeline-line: #444;
+}
 .navbar {
-    background: var(--bg-color);
+    background: #1e1e1e00;
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -33,13 +32,13 @@
 }
 
 .desktopMenuListItem:hover {
-    color: var(--primary-color);
+    color: #ffcc00;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 3px solid #ffcc00;
 }
 
 .desktopMenuBtn {
-    background: var(--text-color);
+    background: white;
     color: black;
     border: none;
     display: flex;
@@ -58,9 +57,9 @@
 }
 
 .active {
-    color: var(--primary-color);
+    color: #ffcc00;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 3px solid #ffcc00;
 }
 
 .mobMenu {
@@ -79,12 +78,12 @@
     padding: 0.5rem;
     height:fit-content;
     min-width: 15rem;
-    background: var(--bg-color);
+    background: rgb(40, 40, 40);
     border-radius: 1rem;
 }
 
 .listItem {
-    color: var(--text-color);
+    color: white;
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     background: rgb(30, 30, 30);
@@ -129,7 +128,7 @@
     top: 5rem;
     right: 2rem;
     z-index: 3;
-    background-color: var(--bg-color);
+    background-color: rgb(40, 40, 40);
     border-radius: 1rem;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     display: flex;
@@ -162,3 +161,27 @@
 .listItem:hover {
     background-color: #555;
 }
+
+/* Theme styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .themeToggleBtn {
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* Optional: style .desktopButtons if needed */
+  .desktopButtons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  

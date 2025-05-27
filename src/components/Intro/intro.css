@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #ffcc00;
+    --bg-color: #121212;
+    --text-color: #ffffff;
+}
+
 #intro {
     height: calc(100vh - 4rem);
     width: 100vw;
@@ -33,7 +39,7 @@
 }
 
 .introName {
-    color: #ffcc00;
+    color: var(--primary-color);
 }
 
 .introPara {
@@ -87,7 +93,7 @@
 
 .typingTextContainer  {
     height: 9rem;
-    color: white;
+    color: var(--text-color);
     white-space: pre-wrap;
     animation: blink 0.8s infinite;
     position: relative;
