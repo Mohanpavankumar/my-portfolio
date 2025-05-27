@@ -71,7 +71,9 @@
     .hello {
         font-size: 4.5vw;
     }
-    
+    .typingTextContainer{
+        height: 7rem !important;;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -90,30 +92,6 @@
     height: 9rem;
     color: white;
     white-space: pre-wrap;
-    border-right: 2px solid #ffcc00;
     animation: blink 0.8s infinite;
     position: relative;
 }
-
-
-/* @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  @keyframes slideInFromRight {
-    0% {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  } */
