@@ -1,3 +1,4 @@
+import portfolio1 from '../../assets/portfolio-1.png'
 import portfolio2 from '../../assets/portfolio-2.png'
 import portfolio4 from '../../assets/portfolio-4.png'
 import portfolio5 from '../../assets/portfolio-5.png'
@@ -8,7 +9,7 @@ import portfolio8 from '../../assets/portfolio-8.png'
 
 export const worksData = [
     {
-        image: "",
+        image: portfolio1,
         title: "Website Development for Higher Education Institution",
         des: "The vision is to build college website by the students for the students.",
         demolink: "https://github.com/Mohanpavankumar/BecCollegeWebsite"
