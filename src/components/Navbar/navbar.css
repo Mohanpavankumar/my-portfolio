@@ -1,5 +1,13 @@
+:root {
+    --primary-color: #ffcc00;
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --muted-text: #aaa;
+    --timeline-line: #444;
+  }
+
 .navbar {
-    background: rgb(30, 30, 30);
+    background: var(--bg-color);
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -25,13 +33,13 @@
 }
 
 .desktopMenuListItem:hover {
-    color: #ffcc00;
+    color: var(--primary-color);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #ffcc00;
+    border-bottom: 3px solid var(--primary-color);
 }
 
 .desktopMenuBtn {
-    background: white;
+    background: var(--text-color);
     color: black;
     border: none;
     display: flex;
@@ -50,9 +58,9 @@
 }
 
 .active {
-    color: #ffcc00;
+    color: var(--primary-color);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #ffcc00;
+    border-bottom: 3px solid var(--primary-color);
 }
 
 .mobMenu {
@@ -71,12 +79,12 @@
     padding: 0.5rem;
     height:fit-content;
     min-width: 15rem;
-    background: rgb(40, 40, 40);
+    background: var(--bg-color);
     border-radius: 1rem;
 }
 
 .listItem {
-    color: white;
+    color: var(--text-color);
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     background: rgb(30, 30, 30);
@@ -121,7 +129,7 @@
     top: 5rem;
     right: 2rem;
     z-index: 3;
-    background-color: rgb(40, 40, 40);
+    background-color: var(--bg-color);
     border-radius: 1rem;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     display: flex;
