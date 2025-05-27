@@ -1,3 +1,4 @@
+import portfolio2 from '../../assets/portfolio-2.png'
 import portfolio4 from '../../assets/portfolio-4.png'
 import portfolio5 from '../../assets/portfolio-5.png'
 import portfolio6 from '../../assets/portfolio-6.png'
@@ -13,7 +14,7 @@ export const worksData = [
         demolink: "https://github.com/Mohanpavankumar/BecCollegeWebsite"
     },
     {
-        image: "",
+        image: portfolio2,
         title: "Heart Disease Prediction",
         des: "It display whether the user having heart disease or not based on different algoritms and overall prediction.",
         demolink: "https://github.com/Mohanpavankumar/HeartDiseasePrediction.git"
