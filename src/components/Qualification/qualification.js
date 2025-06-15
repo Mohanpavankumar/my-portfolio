@@ -47,7 +47,16 @@ const Qualification = () => {
     certificationData.map((item, index) => (
       <div className="qualification-data" key={index}>
         <div>
-          <h3 className="qualification-title">{item.title}</h3>
+          <h3 className="qualification-title">
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              {item.title}
+            </a>
+          </h3>
           <span className="qualification-subtitle">{item.platform || item.school}</span>
           <div className="qualification-calendar">
             <i className="uil uil-calendar-alt"></i> {item.date}
