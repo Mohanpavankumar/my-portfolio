@@ -1,6 +1,6 @@
 export const certificationData = [
     {
-        title: "Frontend Development Specilization Certificate",
+        title: "Frontend Development Specailization",
         platform: "Scrimba, Coursera",
         date: "06/2025"
     },
