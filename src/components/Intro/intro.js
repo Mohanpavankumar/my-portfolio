@@ -4,7 +4,7 @@ import profile from '../../assets/image.png';
 import hireMe from '../../assets/hireme.png';
 
 const Intro = () => {
-  const fullText = "I'm Mohan\nFull Stack Developer";
+  const fullText = "I'm Mohan\nFrontend Developer";
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
 
@@ -27,7 +27,7 @@ const Intro = () => {
             <span className='typingText'>{text}</span>
           </pre>
         </span>
-        <p className='introPara'>I am a skilled Full Stack developer with experience in creating <br /> user friendly websites</p>
+        <p className='introPara'>I am a skilled Frontend developer with experience in creating <br /> user friendly websites</p>
         <a href="/MohanaPavan_Resume.pdf" download className="btn">
           <img src={hireMe} alt="Hire Me" className="btnImg" />
           Hire Me

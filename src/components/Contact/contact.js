@@ -1,8 +1,10 @@
 import { React, useRef } from 'react'
 import './contact.css'
-import Microsoft from '../../assets/microsoft.png'
-import Tourslog from '../../assets/tourslogLogo.png'
-import Maltech from '../../assets/maltechLogo.png'
+// import Microsoft from '../../assets/microsoft.png'
+// import Tourslog from '../../assets/tourslogLogo.png'
+// import Maltech from '../../assets/maltechLogo.png'
+import HCLTech from '../../assets/HCLTech.jpg'
+import KPIT from '../../assets/KPIT.jpg'
 import FacebookIcon from '../../assets/facebook-icon.png'
 import TwitterIcon from '../../assets/twitter.png'
 import GitHUbIcon from '../../assets/github-icon.png'
@@ -39,9 +41,9 @@ const Contact = () => {
                 Some of the notable companies I have worked with includes
             </p>
             <div className='clientImgs'>
-                <div className='clientImgWrapper'><img src={Microsoft} alt='Client' className='clientImg' /></div>
-                <div className='clientImgWrapper'><img src={Tourslog} alt='Client' className='clientImg tourslog' /></div>
-                <div className='clientImgWrapper'><img src={Maltech} alt='Client' className='clientImg' /></div>
+                <div className='clientImgWrapper'><img src={HCLTech} alt='Client' className='clientImg' /></div>
+                <div className='clientImgWrapper'><img src={KPIT} alt='Client' className='clientImg tourslog' /></div>
+                {/* <div className='clientImgWrapper'><img src={Maltech} alt='Client' className='clientImg' /></div> */}
             </div>
         </div>
         <div id='contact'>
