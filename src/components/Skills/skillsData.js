@@ -4,15 +4,15 @@ export const skillsData = [
         title: "React.js",
     },
     {
-        image: "",
+        image: "https://devicon-website.vercel.app/api/angularjs/original.svg",
         title: "Angular.js",
     },
     {
-        image: "",
+        image: "https://devicon-website.vercel.app/api/nextjs/original.svg",
         title: "Next.js",
     },
     {
-        image: "",
+        image: "https://devicon-website.vercel.app/api/vuejs/original.svg",
         title: "Vue.js",
     },
     {
@@ -32,7 +32,7 @@ export const skillsData = [
         title: "JavaScript",
     },
     {
-        image: "",
+        image: "https://devicon-website.vercel.app/api/bootstrap/original.svg",
         title: "Bootstrap",
     },
     {

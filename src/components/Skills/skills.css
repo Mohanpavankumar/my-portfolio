@@ -19,7 +19,7 @@
 .skill-card {
     padding: 1rem;
     border-radius: 1rem;
-    width: 17rem;
+    width: 7rem;
     text-align:left;
     box-shadow: 0 0 15px rgba(203, 182, 182, 0.1);
 }
@@ -31,11 +31,7 @@
 }
 
 .skill-title{
-    margin-bottom: 0.5rem;
-}
-
-.skill-des{
-    font-weight: 300;
+    margin-bottom: 0.2rem;
 }
 
 .hidden {
