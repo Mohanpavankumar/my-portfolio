@@ -17,10 +17,4 @@ export const educationData = [
         program_of_study: "MPC",
         date: "2017-2019"
     },
-    {
-        title: "Secondary School",
-        school: "Modern High School, Chilakaluripet, IND",
-        program_of_study: "High School",
-        date: "2016-2017"
-    },
 ]

@@ -57,7 +57,6 @@ const Skills = () => {
                 className="skill-icon"
               />
               <h3 className="skill-title">{skill.title}</h3>
-              <p className="skill-des">{skill.des}</p>
             </div>
           );
         })}
