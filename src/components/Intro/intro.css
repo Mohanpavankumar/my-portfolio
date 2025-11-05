@@ -16,7 +16,7 @@
 .profile {
     position: absolute;
     top: 0;
-    right: 7rem;
+    right: -5rem;
     z-index: -1;
     object-fit: cover;
     height: 88.5vh;
@@ -81,7 +81,7 @@
 
 @media screen and (max-width:480px) {
     .profile {
-        right: -5vw
+        right: -20vw
     }
     .introContent {
         font-size: 8vw;

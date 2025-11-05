@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './intro.css';
-import profile from '../../assets/image.png';
+import profile from '../../assets/ProfilePic.png';
 import hireMe from '../../assets/hireme.png';
 
 const Intro = () => {
