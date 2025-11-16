@@ -1,5 +1,25 @@
 export const skillsData = [
     {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        title: "Java",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+        title: "Spring Boot",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        title: "MySQL",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        title: "PostgreSQL",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        title: "MongoDB",
+    },
+    {
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         title: "React.js",
     },
@@ -8,12 +28,12 @@ export const skillsData = [
         title: "Angular.js",
     },
     {
-        image: "https://devicon-website.vercel.app/api/nextjs/original.svg",
-        title: "Next.js",
-    },
-    {
         image: "https://devicon-website.vercel.app/api/vuejs/original.svg",
         title: "Vue.js",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        title: "Node.js",
     },
     {
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -36,6 +56,30 @@ export const skillsData = [
         title: "Bootstrap",
     },
     {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svghttps://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+        title: "AWS",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
+        title: "jQuery",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        title: "GraphQL",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        title: "Docker",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+        title: "jenkins",
+    },
+    {
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+        title: "Kubernetes",
+    },
+    {
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
         title: "Git",
     },
@@ -48,7 +92,7 @@ export const skillsData = [
         title: "VS Code",
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-        title: "Docker",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+        title: "Postman",
     },
 ]
